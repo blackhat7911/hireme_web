@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    </head>
+    <style>
+.demo
+{
+    background:#34495e;
+   padding: 100px 0;
+   color:white;
+}
+.heading-title
+{
+   margin-bottom: 60px;
+
+}
+.serviceBox{
+    padding: 30px 30px 30px 90px;
+    background: white;
+    color: black;
+    overflow: hidden;
+    position: relative;
+    border: 6px solid #3498db;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.serviceBox:hover{
+    background: #645e9d;
+    color: #fff;
+}
+
+.serviceBox:after{
+    content: "";
+    display: block;
+    border-top: 500px solid #fff;
+    border-left: 500px solid transparent;
+    margin-top: -55%;
+    margin-left: 100%;
+    opacity: 0;
+    position: absolute;
+    transform: scale(2);
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.serviceBox:hover:after{
+    margin-left: 0;
+    opacity: 0.1;
+}
+
+.serviceBox .service-icon{
+    font-size: 50px;
+    color: #645e9d;
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    transition:all 0.3s ease-in-out 0s;
+}
+
+.serviceBox:hover .service-icon{
+    color: #fff;
+}
+
+.serviceBox .title{
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0 0 12px 0;
+    text-transform: capitalize;
+}
+
+.serviceBox .description{
+    font-size: 15px;
+    color: #a3a3a3;
+    line-height: 25px;
+    margin: 0;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.serviceBox:hover .description{
+    color: #fff;
+}
+
+@media only screen and (max-width: 990px){
+    .serviceBox{ margin-bottom: 15px; }
+}
+</style>
+<!-- {% static 'css/style.css' %} -->
+<link rel="stylesheet" href="">
+ <div class="demo">
+        <div class="container">
+            <div class="row text-center">
+                <h1 class="heading-title">Our HireMe Services</h1>
+            </div>
+            <div class="row">
+                <h3 class="title">Definition</h3>
+                <p> The practice of finding, evaluating, and establishing a working relationship with future employees, 
+                    interns, contractors or consultants.
+                     You can't make a decision about adding employees without knowing what it's going to cost to hire them.</p>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <div class="serviceBox">
+                        <div class="service-icon">
+                            <i class="fa fa-globe"></i>
+                        </div>
+                        <h3 class="title">Plumbing</h3>
+                        <p class="description">
+                           State-of-the-art 15 bed Emergency Room with a resuscitation room and a stand-by trauma team.
+                            24hr consultant on stand-by.s
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6">
+                    <div class="serviceBox">
+                        <div class="service-icon">
+                            <i class="fa fa-rocket"></i>
+                        </div>
+                        <h3 class="title">Web Development</h3>
+                        <p class="description">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam blanditiis debitis, harum minima mollitia sunt totam. Amet cumque deleniti eos harum, libero quaerat quos unde!
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6">
+                    <div class="serviceBox">
+                        <div class="service-icon">
+                            <i class="fa fa-briefcase"></i>
+                        </div>
+                        <h3 class="title">Brand Building</h3>
+                        <p class="description">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam blanditiis debitis, harum minima mollitia sunt totam. Amet cumque deleniti eos harum, libero quaerat quos unde!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</head>
+<body>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+</body>
+</html>

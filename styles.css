@@ -1,0 +1,29 @@
+    .text-black {
+        color: #000;
+    }
+    
+    .caption {
+        text-decoration: none;
+    }
+    
+    .caption>h1 p:hover {
+        text-decoration: none;
+    }
+    
+    * {
+        text-decoration: none;
+        border: none
+    }
+    
+    .img-responsive {
+        overflow: hidden;
+        width: 300px;
+    }
+    
+    #fimg {
+        height: 200px;
+    }
+    
+    #images {
+        height: 200px;
+    }
